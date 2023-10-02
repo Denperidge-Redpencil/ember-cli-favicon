@@ -43,6 +43,10 @@ module.exports = {
       parent.options['ember-cli-favicon'] || {}
     );
 
+
+    // Implement brocolli-favicon outputPath, set the value to faviconsConfig.path
+    this.addonConfig.outputPath = this.addonConfig.faviconsConfig.path;
+
     // Set success callback
     let currentCallback = this.addonConfig.onSuccess || function () {};
 

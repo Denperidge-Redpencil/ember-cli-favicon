@@ -33,7 +33,7 @@
     }
   },
   "dependencies": {
-    "broccoli-favicon": "^3.0.0",
+    "broccoli-favicon": "github:miguelcobain/broccoli-favicon#write-to-path",
     "broccoli-merge-trees": "^4.2.0",
     "ember-cli-babel": "^7.26.6",
     "lodash.merge": "^4.6.2"

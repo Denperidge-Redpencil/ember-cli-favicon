@@ -1,5 +1,15 @@
 # ember-cli-favicon
 
+Fork changes
+------------------------------------------------------------------------------
+
+- Replace the original davewasmer/brocolli-favicon ([GitHub repo](github.com/davewasmer/broccoli-favicon)) for [github.com/miguelcobain/broccoli-favicon#write-to-path](https://github.com/miguelcobain/broccoli-favicon/tree/write-to-path), which allows for a different output folder
+- Sets the output folder variable (`outputPath`) to `faviconsConfig.path`, to allow implementation without having to change any code from the original ember-cli-favicon. See [index.js](index.js).
+
+
+Original README
+------------------------------------------------------------------------------
+
 [![CI](https://github.com/davewasmer/ember-cli-favicon/actions/workflows/ci.yml/badge.svg)](https://github.com/davewasmer/ember-cli-favicon/actions/workflows/ci.yml)
 [![Dependency Status](https://david-dm.org/davewasmer/ember-cli-favicon.svg)](https://david-dm.org/davewasmer/ember-cli-favicon.svg)
 
